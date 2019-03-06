@@ -7,5 +7,5 @@ steps:
   env: ['PROJECT_ROOT=hello']
 artifacts:
   objects:
-    location: 'gs://$PROJECT_ID/'
+    location: 'gs://$PROJECT_ID/TiKuXX'
     paths: ['hello']
