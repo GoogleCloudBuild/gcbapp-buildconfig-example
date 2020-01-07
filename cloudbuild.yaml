@@ -1,6 +1,7 @@
 steps:
+# If you already have a go.mod file, you can skip this step.
 - name: golang
   args: ['go', 'mod', 'init', 'github.com/your/import/path']
+# Build the module.
 - name: golang
-  env: ['GO111MODULE=on']
   args: ['go', 'build', '.']
