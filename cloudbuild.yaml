@@ -13,13 +13,6 @@
 # limitations under the License.
 
 steps:
-- name: 'gcr.io/cloud-builders/go'
-  args: ['install', '.']
-  env: ['PROJECT_ROOT=hello']
-- name: 'gcr.io/cloud-builders/go'
-  args: ['build', 'hello']
-  env: ['PROJECT_ROOT=hello']
-artifacts:
-  objects:
-    location: 'gs://$PROJECT_ID/'
-    paths: ['hello']
+# Build the module.
+- name: golang
+  args: ['go', 'build', '.']
