@@ -11,3 +11,5 @@ steps:
   args: ['go', 'mod', 'init', 'github.com/your/import/path']
 ```
 In this example, the specified `GOPATH` is `github.com/your/import/path`.
+
+i love go
