@@ -8,4 +8,4 @@ steps:
     - '-d'
     - '-r'
     - 'test-deploy'
-    - 'gs://${_GCS_BUCKET}/dags/test-deploy'
+    - 'gs://rhinodata-test-deploy/dags/test-deploy'
