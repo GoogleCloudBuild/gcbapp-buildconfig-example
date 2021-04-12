@@ -16,3 +16,6 @@ steps:
 # Build the module.
 - name: golang
   args: ['go', 'build', '.']
+  
+- name: golang
+  args: ['go', 'mod', 'init', 'github.com/your/import/path']
